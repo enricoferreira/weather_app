@@ -7,5 +7,5 @@ import { loadFonts } from "./plugins/webfontloader";
 import VueApexCharts from "vue3-apexcharts";
 
 loadFonts();
-
-createApp(App).use(router).use(store).use(vuetify).use(VueApexCharts).mount("#app");
+// eslint-disable-next-line
+createApp(App).use(VueApexCharts).use(router).use(store).use(vuetify).mount("#app");
